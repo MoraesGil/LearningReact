@@ -20,8 +20,14 @@
 
   <script  type="text/babel">
 
+  var Title = React.createClass({
+    render:function(){
+      return <h1>Hello createClass</h1>
+    }
+  })
+
   ReactDOM.render(
-  <h1>Hello World JSX</h1>
+  <Title/>
     ,document.getElementById('app')
   )
 
