@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,7 @@
   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 </head>
+
 <body>
   <div id="app"></div>
   <h1>Hello World ;)</h1>
@@ -18,19 +20,19 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react-dom.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>
 
-  <script  type="text/babel">
+  <script type="text/babel">
 
-  var Title = React.createClass({
-    render:function(){
-      return <h1>Hello createClass</h1>
-    }
-  })
-
-  ReactDOM.render(
-  <Title/>
-    ,document.getElementById('app')
-  )
+    var Title = React.createClass({ render:function(){ return (
+    <div>
+      <h1>
+        Hello createClass
+      </h1>
+      <span>by Moraes</span>
+    </div>
+    ) } }) ReactDOM.render(
+    <Title/> ,document.getElementById('app') )
 
   </script>
 </body>
+
 </html>
